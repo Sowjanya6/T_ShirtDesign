@@ -4,21 +4,25 @@ public class Shirt {
 		//Shape shirt=new AddPicture();
 		System.out.println(shirt.getShirt());
 		System.out.println("Price:" +shirt.getCost());
+		System.out.println();
 		
 		Shape shirt1=new AddPicture(new ChangeBgClr(new Addtext( new CollaredShirt() )));
 		//Shape shirt=new AddPicture();
 		System.out.println(shirt1.getShirt());
 		System.out.println("Price:" +shirt1.getCost());
+		System.out.println();
 		
 		Shape shirt2=new ChangeBgClr(new Addtext( new VShirt() ));
 		//Shape shirt=new AddPicture();
 		System.out.println(shirt2.getShirt());
 		System.out.println("Price:" +shirt2.getCost());
+		System.out.println();
 		
 		Shape shirt3=new PlanShirt();
 		//Shape shirt=new AddPicture();
 		System.out.println(shirt3.getShirt());
 		System.out.println("Price:" +shirt3.getCost());
+		System.out.println();
 		
 
 		
