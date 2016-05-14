@@ -2,7 +2,7 @@
 	    //private static Shape decoratorShirt;
 		public ChangeBgClr(Shape decoratorShirt) {
 			super(decoratorShirt);
-	        System.out.println("Adding color");
+	        //System.out.println("Adding color");
 		}
 		
 		public String getShirt(){
