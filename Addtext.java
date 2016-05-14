@@ -3,7 +3,7 @@ public class Addtext extends ShirtDecorator{
 	
 	   public Addtext(Shape decoratorShirt) {
 			super(decoratorShirt);
-			 System.out.println("Adding text");
+			// System.out.println("Adding text");
 		}
 		
 	   public String getShirt(){
