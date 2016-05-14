@@ -3,7 +3,7 @@ public class AddPicture extends ShirtDecorator{
 		//private static Shape decoratorShirt;
 		public AddPicture(Shape decoratorShirt) {
 			super(decoratorShirt);
-			 System.out.println("Adding picture");
+			// System.out.println("Adding picture");
 		}
 		public String getShirt(){
 			return decoratedShirt.getShirt() +"picture is added, ";
