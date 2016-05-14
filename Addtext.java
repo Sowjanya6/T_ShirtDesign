@@ -6,7 +6,7 @@ public class Addtext extends ShirtDecorator{
 			Scanner in = new Scanner(System.in);
 		        System.out.println("Enter the text to be printed on ur shirt");
                         String text = in.nextLine();
-			System.out.println("the text on the tshirt is"+text);		
+			System.out.println("the text on the tshirt is "+text);		
 			// System.out.println("Adding text");
 		}
 		
